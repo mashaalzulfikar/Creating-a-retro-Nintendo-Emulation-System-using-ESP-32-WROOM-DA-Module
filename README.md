@@ -1,15 +1,12 @@
-# ESP32-S3 NES Emulator
-
-This repo based on esp nofrendo. But I really too much work and upgraded it
-Original Repo : https://github.com/espressif/esp32-nesemu/tree/master/components/nofrendo
+# Creating a retro-Nintendo Emulation System using ESP-32 WROOM DA Module
 
 [![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32--S3-blue)](https://www.espressif.com/)
 
-A high-performance, DIY handheld NES (Nintendo Entertainment System) emulator powered by the ESP32-S3 microcontroller. This project features high-quality audio via I2S, smooth rendering on an ST7789 display, and games loaded directly from an SD card.
+A high-performance, DIY handheld NES (Nintendo Entertainment System) emulator powered by the ESP32 microcontroller. This project features high-quality audio via I2S, smooth rendering on an ST7789 display, and games loaded directly from an SD card.
 
 ## 📺 Video Tutorial
 
-Build your own following the step-by-step guide!https://youtu.be/wruJ-BESnX8
+Build your own following the step-by-step guide!
 
 [![Watch the tutorial](https://img.youtube.com/vi/wruJ-BESnX8/0.jpg)](https://www.youtube.com/watch?v=wruJ-BESnX8)
 
@@ -17,7 +14,7 @@ Build your own following the step-by-step guide!https://youtu.be/wruJ-BESnX8
 
 ## ✨ Features
 
-* **Full Speed Emulation:** Runs NES games smoothly thanks to the ESP32-S3's dual-core power.
+* **Full Speed Emulation:** Runs NES games smoothly thanks to the ESP32's dual-core power.
 * **High-Quality Audio:** Crystal clear game sounds using the MAX98357A I2S amplifier.
 * **Storage:** Load hundreds of ROMs from a Micro SD Card.
 * **Display:** Vibrant colors using the ST7789 IPS TFT display.
@@ -27,7 +24,7 @@ Build your own following the step-by-step guide!https://youtu.be/wruJ-BESnX8
 
 To build this project, you will need the following components:
 
-* **Microcontroller:** ESP32-S3 (DevKit or bare module)
+* **Microcontroller:** ESP32 (DevKit (V1) or bare module)
 * **Display:** ST7789 SPI TFT Module (e.g., 1.69")
 * **Audio:** MAX98357A I2S Amplifier Module + 3W 4Ω Speaker
 * **Storage:** Micro SD Card Reader Module + Micro SD Card (formatted FAT32)
@@ -96,7 +93,7 @@ Below is the connection diagram for the components.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/derdacavga/Esp32-S3-nes-emulator-by-DSN.git](https://github.com/derdacavga/Esp32-S3-nes-emulator-by-DSN.git)
+    git clone [https://github.com/mashaalzulfikar/Creating-a-retro-Nintendo-Emulation-System-using-ESP-32-WROOM-DA-Module.git](https://github.com/mashaalzulfikar/Creating-a-retro-Nintendo-Emulation-System-using-ESP-32-WROOM-DA-Module.git)
     ```
 2.  **Open in IDE:**
     * Open the project using **Arduino IDE**.
@@ -121,21 +118,9 @@ Below is the connection diagram for the components.
 
 ---
 
-## 🤝 Support
+## Acknowledgement
 
-If you found this project helpful, please consider:
-* **Subscribing** to the YouTube Channel.
-* Giving the video a **Like**.
-* Starring this GitHub Repository!
+Shout-out to Dsn Industries, who uploaded the project tutorial and guide on YouTube and GitHub:
 
 * **YouTube:** [https://www.youtube.com/@DsnIndustries/videos]
-* **Patreon:** [https://www.patreon.com/c/dsnIndustries]
-
-Happy Making!
-
-## Games
-* **Maze Escape:** https://play.google.com/store/apps/details?id=com.DsnMechanics.MazeEscape
-* **Air Hockey:** https://play.google.com/store/apps/details?id=com.DsnMechanics.AirHockey
-* **Click Challenge:** https://play.google.com/store/apps/details?id=com.DsNMechanics.ClickChallenge
-* **Flying Triangels:** https://play.google.com/store/apps/details?id=com.DsnMechanics.Triangle
-* **SkyScrapper:** https://play.google.com/store/apps/details?id=com.DsnMechanics.SkyScraper
+* **GitHub:** [https://github.com/derdacavga/Esp32-S3-nes-emulator-by-DSN]
