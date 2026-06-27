@@ -1,7 +1,5 @@
 # Creating a retro-Nintendo Emulation System using ESP-32 WROOM DA Module
 
-[![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32--S3-blue)](https://www.espressif.com/)
-
 A high-performance, DIY handheld NES (Nintendo Entertainment System) emulator powered by the ESP32 microcontroller. This project features high-quality audio via I2S, smooth rendering on an ST7789 display, and games loaded directly from an SD card.
 
 ## 📺 Video Tutorial
@@ -118,7 +116,7 @@ Below is the connection diagram for the components.
 
 ---
 
-## Acknowledgement
+## 🤝 Acknowledgement
 
 Shout-out to Dsn Industries, who uploaded the project tutorial and guide on YouTube and GitHub:
 
